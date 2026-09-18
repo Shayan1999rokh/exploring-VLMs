@@ -90,7 +90,7 @@ Overall, this notebook goes beyond simple VLM inference. It demonstrates a compl
 ## `06_Object_Detection_Using_Qwen_2_5VL_unsloth.ipynb`
 
 <p align="center">
-  <img src="Cover_6.png" alt="Object_Detection_Using_Qwen_2_5VL" width="800">
+  <img src="Cover_6.png" alt="Object_Detection_Using_Qwen_2_5VL" width="900">
 </p>
 
 
