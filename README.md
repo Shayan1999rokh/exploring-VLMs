@@ -130,6 +130,10 @@ Rather than focusing on a single application, this notebook acts as a broader Ge
 
 ## `08_Multimodal_apple_fastVLM.ipynb`
 
+<p align="center">
+  <img src="Cover_8.png" alt="Multimodal LLMs with Gemma 3" width="1000">
+</p>
+
 This notebook demonstrates multimodal inference using Apple’s lightweight **`FastVLM-0.5B`** model. In contrast to the larger multimodal models used elsewhere in the repository, this example focuses on a relatively compact Vision-Language Model and provides a more explicit look at how textual tokens and visual information are combined before generation.
 
 The model and tokenizer are loaded from `apple/FastVLM-0.5B` through Hugging Face with `trust_remote_code=True`. The notebook does not hide multimodal preparation behind a single high-level processor call. Instead, it manually constructs the sequence expected by FastVLM. A chat-style prompt contains an `<image>` placeholder, and the text appearing before and after this placeholder is tokenized separately. The notebook then inserts FastVLM’s special **image token identifier (`-200`)** between the two text segments to indicate where visual features should enter the sequence.
