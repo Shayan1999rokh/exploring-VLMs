@@ -15,7 +15,7 @@ Overall, this notebook focuses on the foundation behind many VLM applications. R
 ## `02__Zero-Shot-Classification-CLIP(1).ipynb`
 
 <p align="center">
-  <img src="Cover_2.png" alt="Zero-Shot Classification with CLIP" width="700">
+  <img src="Cover_2.png" alt="Zero-Shot Classification with CLIP" width="800">
 </p>
 
 
