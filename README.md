@@ -89,6 +89,11 @@ Overall, this notebook goes beyond simple VLM inference. It demonstrates a compl
 
 ## `06_Object_Detection_Using_Qwen_2_5VL_unsloth.ipynb`
 
+<p align="center">
+  <img src="Cover_6.png" alt="Object_Detection_Using_Qwen_2_5VL" width="800">
+</p>
+
+
 This notebook demonstrates how a generative Vision-Language Model can be used for **object detection and spatial reasoning** without relying on a conventional object-detection architecture such as YOLO or Faster R-CNN. The implementation uses the 7-billion-parameter `unsloth/Qwen2.5-VL-7B-Instruct` checkpoint and prompts the model to identify requested objects and return their spatial coordinates in a structured format.
 
 Because a 7B multimodal model can require substantial GPU memory, the notebook uses `bitsandbytes` **4-bit quantization**. The configuration uses NF4 quantization, double quantization, and reduced-precision computation, allowing the model to run with considerably lower VRAM consumption while retaining the general Qwen2.5-VL inference pipeline.
