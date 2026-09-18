@@ -69,6 +69,10 @@ The notebook is intentionally focused on the core inference pipeline rather than
 
 ## `05_Persian_Image_Captioning_PTIR(1).ipynb`
 
+<p align="center">
+  <img src="Cover_5.png" alt="Image Captioning with Qwen2.5-VL" width="1000">
+</p>
+
 This notebook provides the most complete training-oriented example in the collection, focusing on **Persian image captioning within the PTIR framework**. PTIR is designed for Persian multimodal applications and combines Persian image caption generation with text embeddings and vector-based retrieval. This notebook concentrates primarily on the captioning component and demonstrates both inference with an existing pretrained model and construction of a Vision Encoder–Decoder model for training.
 
 The data source is the `rasoulasadianub/coco-pic` dataset, which contains images paired with Persian captions. The notebook first explores sample image–caption pairs and includes utilities for correctly displaying Persian text using Arabic reshaping and bidirectional text handling. It then loads the pretrained `shenasa/persian-image-captioning` model and generates captions for example images.
