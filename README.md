@@ -51,10 +51,6 @@ This notebook is therefore useful both as an inference example and as a conceptu
 
 ## `04_Image-Captioning_with_Qwen 2.5-VL(1).ipynb`
 
-<p align="center">
-  <img src="Cover_4.png" alt="Image Captioning with Qwen2.5-VL" width="900">
-</p>
-
 This notebook moves from embedding-based vision-language models to a **generative multimodal model**, demonstrating image captioning with `Qwen/Qwen2.5-VL-3B-Instruct`. Instead of merely calculating the similarity between an image and predefined text candidates, Qwen2.5-VL receives visual information together with a natural-language instruction and generates a free-form textual response describing the image.
 
 The notebook first loads the 3-billion-parameter instruction-tuned Qwen2.5-VL model and its `AutoProcessor`. A sample image is downloaded and provided to the model together with the request `"Describe this image."`. The implementation highlights Qwen’s chat-style input format, where multimodal content is represented as a sequence of messages containing roles such as `user`, along with separate image and text components.
