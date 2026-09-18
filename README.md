@@ -148,6 +148,10 @@ The notebook therefore demonstrates both **constrained visual question answering
 
 ## `09_video_understanding_Qwen_2.5_VL.ipynb`
 
+<p align="center">
+  <img src="Cover_9.png" alt="Video Understanding with Qwen2.5-VL" width="1000">
+</p>
+
 This notebook extends Qwen2.5-VL beyond static-image understanding and explores a range of **video understanding tasks** using `Qwen/Qwen2.5-VL-7B-Instruct`. It is the most temporally oriented notebook in the collection, covering general video description, recognition of textual information inside videos, long-video comprehension, temporal grounding, and structured event captioning.
 
 The model is loaded in `bfloat16` precision with **Flash Attention 2** and automatic device mapping. Because video inference produces a large number of visual tokens, the notebook explicitly notes its substantial hardware requirements and targets a powerful NVIDIA GPU. Video decoding and frame handling are implemented with `decord`. Utility functions can download remote videos, uniformly sample frames across their duration, preserve frame timestamps, cache processed data, and arrange sampled frames into visual grids.
