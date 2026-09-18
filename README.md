@@ -1,5 +1,9 @@
 ## `01__CLIP_Embeddings(1).ipynb`
 
+<p align="center">
+  <img src="Cover_1.png" alt="CLIP Embeddings" width="900">
+</p>
+
 This notebook provides a practical introduction to **multimodal embeddings using CLIP (Contrastive Language–Image Pre-training)**. Its main objective is to demonstrate how text and images can be transformed into numerical feature vectors that occupy the same semantic embedding space. The notebook uses the pretrained `openai/clip-vit-base-patch32` model from Hugging Face and gradually explores text embeddings, image embeddings, and cross-modal similarity.
 
 The workflow begins with several simple text descriptions such as `"a donut"`, `"a cookie"`, `"an airplane"`, and `"a cat"`. These strings are tokenized using CLIP’s tokenizer and passed through the text encoder to obtain fixed-dimensional semantic representations. The notebook then calculates pairwise **cosine similarity** between these text embeddings to illustrate how CLIP represents semantically related and unrelated concepts. A similarity matrix is visualized as a heatmap, making the structure of the learned embedding space easier to interpret.
