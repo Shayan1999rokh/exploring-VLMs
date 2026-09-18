@@ -14,6 +14,12 @@ Overall, this notebook focuses on the foundation behind many VLM applications. R
 
 ## `02__Zero-Shot-Classification-CLIP(1).ipynb`
 
+<p align="center">
+  <img src="images/Cover_2.png"
+       alt="Zero-Shot Classification with CLIP"
+       width="900">
+</p>
+
 This notebook demonstrates **zero-shot image classification using CLIP**, showing how an image can be classified into user-defined categories without training a new classifier or providing task-specific training examples. It uses the pretrained `openai/clip-vit-base-patch32` model and its corresponding `CLIPProcessor` to compare a visual input against several natural-language class labels.
 
 A sample image is loaded from the COCO dataset and three candidate classes—`"cat"`, `"dog"`, and `"rabbit"`—are provided directly as text. Instead of using a conventional neural-network classification head with a fixed set of classes, CLIP encodes both the image and these textual labels into its shared multimodal representation space. This means that the classes can be changed at inference time without retraining the model, which is the central idea behind zero-shot classification.
