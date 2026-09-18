@@ -110,6 +110,10 @@ The notebook illustrates an important capability of modern VLMs: visual localiza
 
 ## `07_Multimodal-LLMs-Gemma3.ipynb`
 
+<p align="center">
+  <img src="Cover_7.png" alt="Multimodal LLMs with Gemma 3" width="900">
+</p>
+
 This notebook introduces **Google Gemma 3** as a family of multimodal, multilingual, long-context models and combines architectural background with practical inference examples. It covers the 1B, 4B, 12B, and 27B variants, emphasizing that the larger Gemma 3 models support image and text inputs while providing substantially longer context windows than the previous Gemma generation.
 
 The notebook first discusses the technical improvements behind Gemma 3, particularly longer-context processing, multilingual support, and multimodality. For visual understanding, Gemma 3 incorporates a **SigLIP-based vision encoder** that converts visual information into representations consumed by the language model. The notebook also describes mechanisms used to handle image resolution and aspect-ratio constraints and explains how the architecture combines visual input with the language-model generation process.
