@@ -15,10 +15,9 @@ Overall, this notebook focuses on the foundation behind many VLM applications. R
 ## `02__Zero-Shot-Classification-CLIP(1).ipynb`
 
 <p align="center">
-  <img src="images/Cover_2.png"
-       alt="Zero-Shot Classification with CLIP"
-       width="900">
+  <img src="Cover_2.png" alt="Zero-Shot Classification with CLIP" width="1000">
 </p>
+
 
 This notebook demonstrates **zero-shot image classification using CLIP**, showing how an image can be classified into user-defined categories without training a new classifier or providing task-specific training examples. It uses the pretrained `openai/clip-vit-base-patch32` model and its corresponding `CLIPProcessor` to compare a visual input against several natural-language class labels.
 
