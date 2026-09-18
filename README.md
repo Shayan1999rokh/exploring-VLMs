@@ -33,6 +33,10 @@ The notebook therefore serves as a compact implementation of CLIP-based zero-sho
 
 ## `03_Inference_with_(multilingual)_SigLIP_a_better_CLIP_model(1).ipynb`
 
+<p align="center">
+  <img src="Cover_3.png" alt="SigLIP for Image-Text Matching" width="800">
+</p>
+
 This notebook introduces **SigLIP (Sigmoid Loss for Language–Image Pre-training)** and demonstrates how it can be used for image–text matching. Conceptually, SigLIP follows the same general vision-language paradigm as CLIP: separate image and text encoders learn representations that allow visual content to be associated with natural-language descriptions. The major distinction discussed in the notebook is the learning objective used during pretraining.
 
 While traditional CLIP relies on a contrastive softmax-based objective that compares image–text pairs relative to all other pairs in a batch, SigLIP formulates image–text matching using a **sigmoid loss**. Each image–text pair can therefore be evaluated more independently as a matching or non-matching pair. The notebook explains that this formulation avoids the global normalization required by CLIP’s softmax objective and can support efficient training with very large batches.
