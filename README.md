@@ -169,7 +169,7 @@ The notebook subsequently introduces **video grounding**, where a textual query 
 Overall, this notebook demonstrates that a VLM can perform not only frame-level recognition but also temporal reasoning, event localization, OCR-like video analysis, long-context visual understanding, and structured video summarization.
 
 ---
-## `10_Radiology Image Understanding with Llama 3.2 Vision`
+## `10_Radiology Image Understanding with Llama 3.2 Vision (ipynb)`
 
 <p align="center">
   <img src="Cover_10.png" alt="Radiology Image Understanding with Llama 3.2 Vision" width="1000">
