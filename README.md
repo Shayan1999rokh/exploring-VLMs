@@ -169,7 +169,7 @@ The notebook subsequently introduces **video grounding**, where a textual query 
 Overall, this notebook demonstrates that a VLM can perform not only frame-level recognition but also temporal reasoning, event localization, OCR-like video analysis, long-context visual understanding, and structured video summarization.
 
 ---
-## "10_Radiology Image Understanding with Llama 3.2 Vision"
+## `10_Radiology Image Understanding with Llama 3.2 Vision`
 
 This project explores parameter-efficient fine-tuning of Llama-3.2-11B-Vision-Instruct for radiology image understanding and medical image description generation. The model is adapted using the Radiology_mini dataset, a sampled version of ROCOv2 containing 1,978 expert-captioned radiology images spanning X-ray, CT, and ultrasound modalities. Each sample is reformatted as a multimodal instruction-following conversation in which the model receives a medical image together with a radiology-oriented prompt and learns to generate a corresponding expert-style textual description.
 
