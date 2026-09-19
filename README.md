@@ -171,6 +171,10 @@ Overall, this notebook demonstrates that a VLM can perform not only frame-level 
 ---
 ## `10_Radiology Image Understanding with Llama 3.2 Vision`
 
+<p align="center">
+  <img src="Cover_10.png" alt="Radiology Image Understanding with Llama 3.2 Vision" width="1000">
+</p>
+
 This project explores parameter-efficient fine-tuning of Llama-3.2-11B-Vision-Instruct for radiology image understanding and medical image description generation. The model is adapted using the Radiology_mini dataset, a sampled version of ROCOv2 containing 1,978 expert-captioned radiology images spanning X-ray, CT, and ultrasound modalities. Each sample is reformatted as a multimodal instruction-following conversation in which the model receives a medical image together with a radiology-oriented prompt and learns to generate a corresponding expert-style textual description.
 
 To make adaptation of the 11B-parameter vision-language model computationally practical, the pipeline uses 4-bit quantization, LoRA-based parameter-efficient fine-tuning, Unsloth, and TRL supervised fine-tuning (SFT). LoRA adapters are applied across both visual and language components, including attention and MLP modules, allowing the model to learn domain-specific radiological representations without full-model training. The notebook also demonstrates inference before and after fine-tuning to examine how domain adaptation affects the model's ability to describe radiological findings. Overall, the project provides a practical implementation of medical VLM adaptation, multimodal supervised fine-tuning, and efficient training of large vision-language foundation models on domain-specific medical imaging data.
